@@ -3,48 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silver Spring - Premium Shower Glass Solutions</title>
     <meta name="description" content="Premium frosted shower glass solutions for your bathroom. Featuring anti-leak seals and luxury designs.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Poppins'] antialiased bg-white">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
+                <a href="https://mr222more.github.io/silver-spring-2025-04-27-nzdor" class="text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300">
                     Silver Spring
-                </div>
+                </a>
+                
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="http://www.customeuroglass.com" class="hidden md:block px-6 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
+
+                <a href="http://www.customeuroglass.com" class="hidden md:block px-6 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                     Get Started
                 </a>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-6 right-6">
+                <div class="flex flex-col space-y-4 p-4">
+                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About Us</a>
+                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                    <a href="http://www.customeuroglass.com" class="px-6 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-all duration-300 text-center">
+                        Get Started
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="pt-32 pb-24 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-r from-gray-50 to-white -z-10"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-10"></div>
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl">
                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                        Frosted shower glass for ultimate privacy
+                        Elevate Your Bathroom with Premium Frosted Glass
                     </h1>
                     <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                        Transform your bathroom into a luxurious sanctuary with our premium shower glass solutions.
+                        Experience unparalleled privacy and elegance with our custom-engineered shower glass solutions. Featuring advanced anti-leak technology and timeless designs that transform ordinary bathrooms into luxurious retreats.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="http://www.customeuroglass.com" class="inline-block px-8 py-4 bg-gray-900 text-white rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 text-center">
+                        <a href="http://www.customeuroglass.com" class="inline-block px-8 py-4 bg-gray-900 text-white rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-center">
                             Explore Our Collection
                         </a>
-                        <a href="#contact" class="inline-block px-8 py-4 border-2 border-gray-900 text-gray-900 rounded-full text-lg font-medium hover:bg-gray-100 transition-all duration-300 text-center">
-                            Contact Us
+                        <a href="#contact" class="inline-block px-8 py-4 border-2 border-gray-900 text-gray-900 rounded-full text-lg font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 text-center">
+                            Schedule Consultation
                         </a>
                     </div>
                 </div>
@@ -61,12 +92,35 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Anti-Leak Protection</h3>
+                        <h3 class="text-xl font-semibold mb-4">Advanced Anti-Leak Protection</h3>
                         <p class="text-gray-600 leading-relaxed">
-                            Advanced sealing technology prevents water damage and ensures your bathroom stays dry.
+                            Our patented sealing technology creates a watertight barrier that prevents leaks and water damage. Guaranteed to keep your bathroom dry and protected for years to come.
                         </p>
                     </div>
-                    <!-- Additional feature cards would go here -->
+
+                    <div class="p-8 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-16 h-16 bg-gray-900 rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Premium Frosted Finish</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Our proprietary frosting process creates an elegant, uniform appearance that provides complete privacy while maintaining maximum light transmission.
+                        </p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-16 h-16 bg-gray-900 rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Easy-Clean Surface Treatment</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Specially treated glass repels water, soap scum, and mineral deposits, making maintenance effortless and keeping your shower sparkling clean with minimal effort.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,80 +130,240 @@
                 <h2 class="text-4xl font-bold text-center mb-16">Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="flex flex-col gap-6">
-                        <h3 class="text-2xl font-semibold">Luxury & Elegance</h3>
+                        <h3 class="text-2xl font-semibold">Unmatched Luxury & Elegance</h3>
                         <p class="text-gray-600 leading-relaxed">
-                            Our premium shower glass solutions add a touch of sophistication to any bathroom design, elevating your space to new heights of luxury.
+                            Transform your bathroom into a spa-like retreat with our premium glass solutions. Each installation is custom-designed to complement your space and enhance its aesthetic appeal. Our frosted glass creates a sophisticated atmosphere that elevates your daily routine.
                         </p>
                     </div>
-                    <!-- Additional benefit sections would go here -->
+
+                    <div class="flex flex-col gap-6">
+                        <h3 class="text-2xl font-semibold">Lifetime Durability</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Built to last with premium materials and expert craftsmanship. Our tempered glass is 5x stronger than standard glass and backed by a lifetime warranty. Enjoy peace of mind knowing your investment is protected for years to come.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-24 bg-white">
+        <section id="testimonials" class="py-24 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
-                <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="border-b border-gray-200 pb-6">
-                        <button class="w-full text-left">
-                            <div class="flex justify-between items-center">
-                                <h3 class="text-xl font-medium">How long does installation take?</h3>
-                                <span class="plus-icon">+</span>
+                <h2 class="text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The anti-leak technology is incredible. We've had zero water damage issues since installation, and the frosted glass adds such elegance to our master bath. Worth every penny!"</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Interior Designer, Modern Homes LLC</p>
+                    </div>
+
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Installation was quick and professional. The easy-clean surface is a game-changer - barely any maintenance required. Highly recommend!"</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-500">Homeowner</p>
+                    </div>
+
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The quality is outstanding. After six months of daily use, it looks as perfect as day one. The frosted finish provides complete privacy while still letting in plenty of light."</p>
+                        <p class="font-semibold">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-500">Luxury Property Manager</p>
+                    </div>
+
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Transformed our bathroom completely. The customer service was exceptional from start to finish. Best home improvement investment we've made."</p>
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-500">Real Estate Developer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="py-24 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-center mb-16">About Us</h2>
+                    <div class="max-w-3xl mx-auto">
+                        <p class="text-gray-600 mb-8 leading-relaxed">
+                            Founded in 2010, Silver Spring emerged from a vision to revolutionize bathroom design through innovative glass solutions. What began as a small family-owned business has grown into a leading provider of premium shower glass installations, serving thousands of satisfied customers across the region.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                            Our mission is to combine cutting-edge technology with timeless design, creating shower spaces that enhance both the function and beauty of your home. We're committed to excellence in craftsmanship, customer service, and environmental responsibility, using sustainable practices and materials in everything we do.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="py-24 bg-white">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                    <div class="max-w-3xl mx-auto space-y-6">
+                        <div class="border-b border-gray-200 pb-6">
+                            <button class="w-full text-left">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl font-medium">How long does installation take?</h3>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                            </button>
+                            <div class="hidden mt-4 text-gray-600">
+                                Most installations are completed within 2-3 hours. Our professional team ensures minimal disruption to your daily routine while maintaining the highest quality standards.
                             </div>
-                        </button>
-                        <div class="hidden mt-4 text-gray-600">
-                            Installation typically takes 2-3 hours for standard shower enclosures.
+                        </div>
+
+                        <div class="border-b border-gray-200 pb-6">
+                            <button class="w-full text-left">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl font-medium">What warranty do you offer?</h3>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                            </button>
+                            <div class="hidden mt-4 text-gray-600">
+                                We provide a comprehensive lifetime warranty on all glass and hardware, covering any manufacturing defects or installation issues. Your investment is protected for as long as you own your home.
+                            </div>
+                        </div>
+
+                        <div class="border-b border-gray-200 pb-6">
+                            <button class="w-full text-left">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl font-medium">How do I maintain the glass?</h3>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                            </button>
+                            <div class="hidden mt-4 text-gray-600">
+                                Our easy-clean surface treatment means minimal maintenance is required. A simple weekly wipe with a soft cloth and mild cleaner is all that's needed to keep your shower glass looking pristine.
+                            </div>
+                        </div>
+
+                        <div class="border-b border-gray-200 pb-6">
+                            <button class="w-full text-left">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl font-medium">Do you offer custom sizes?</h3>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                            </button>
+                            <div class="hidden mt-4 text-gray-600">
+                                Yes, all our installations are custom-measured and tailored to your specific space. We can accommodate any shower configuration or unique architectural features.
+                            </div>
+                        </div>
+
+                        <div class="border-b border-gray-200 pb-6">
+                            <button class="w-full text-left">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl font-medium">What is the cost range?</h3>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                            </button>
+                            <div class="hidden mt-4 text-gray-600">
+                                Pricing varies based on size and specifications. We offer competitive rates starting at $1,500, with flexible financing options available. Contact us for a detailed quote.
+                            </div>
                         </div>
                     </div>
-                    <!-- Additional FAQ items would go here -->
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="contact" class="py-24 bg-gray-900 text-white">
+            <section id="contact" class="py-24 bg-gray-900 text-white">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h2 class="text-4xl font-bold mb-8">Ready to Transform Your Bathroom?</h2>
+                        <p class="text-xl mb-8 text-gray-300">Schedule your free consultation today and discover the perfect glass solution for your space.</p>
+                        <a href="mailto:info@customeuroglass.com" class="inline-block px-8 py-4 bg-white text-gray-900 rounded-full text-lg font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            info@customeuroglass.com
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-100 py-16">
             <div class="container mx-auto px-6">
-                <div class="max-w-4xl mx-auto text-center">
-                    <h2 class="text-4xl font-bold mb-8">Ready to Transform Your Bathroom?</h2>
-                    <p class="text-xl mb-8 text-gray-300">Contact us today for a free consultation</p>
-                    <a href="mailto:info@customeuroglass.com" class="inline-block px-8 py-4 bg-white text-gray-900 rounded-full text-lg font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
-                        info@customeuroglass.com
-                    </a>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Silver Spring</h3>
+                        <p class="text-gray-600">Transforming bathrooms with premium glass solutions since 2010.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a></li>
+                            <li><a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a></li>
+                            <li><a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a></li>
+                            <li><a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About Us</a></li>
+                            <li><a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                        <p class="text-gray-600">info@customeuroglass.com</p>
+                        <p class="text-gray-600 mt-2">1-800-SHOWER-GLASS</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="https://mr222more.github.io/silver-spring-2025-04-27-nzdor/privacy.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Privacy Policy</a></li>
+                            <li><a href="https://mr222more.github.io/silver-spring-2025-04-27-nzdor/terms.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Terms of Service</a></li>
+                            <li><a href="https://mr222more.github.io/silver-spring-2025-04-27-nzdor/blog.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
+                    <p>&copy; 2024 Silver Spring. All rights reserved.</p>
                 </div>
             </div>
-        </section>
-    </main>
+        </footer>
 
-    <footer class="bg-gray-100 py-16">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Silver Spring</h3>
-                    <p class="text-gray-600">Premium shower glass solutions for modern homes.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#features" class="text-gray-600 hover:text-gray-900">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-600 hover:text-gray-900">Benefits</a></li>
-                        <li><a href="#faq" class="text-gray-600 hover:text-gray-900">FAQ</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <p class="text-gray-600">info@customeuroglass.com</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-600 hover:text-gray-900">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
-                <p>&copy; 2024 Silver Spring. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+                const mobileMenu = document.querySelector('header nav .mobile-menu');
+                
+                if (mobileMenuButton && mobileMenu) {
+                    mobileMenuButton.addEventListener('click', () => {
+                        mobileMenu.classList.toggle('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.toggle('fa-bars');
+                            icon.classList.toggle('fa-times');
+                        }
+                    });
+
+                    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                    mobileMenuLinks.forEach(link => {
+                        link.addEventListener('click', () => {
+                            mobileMenu.classList.add('hidden');
+                            const icon = mobileMenuButton.querySelector('i');
+                            if (icon) {
+                                icon.classList.remove('fa-times');
+                                icon.classList.add('fa-bars');
+                            }
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
 </body>
 </html>
